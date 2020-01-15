@@ -1,7 +1,7 @@
 * {
   font-family: Helvetica;
   font-size: 1.4em;
-  /*color: black;*/s
+  /*color: black;*/
   /*text-align: center;*/
   padding: 0;
   margin: 0;
@@ -29,7 +29,7 @@
   }
   #all-name {
     max-width: 800px;
-    padding: 0px 20px;
+    padding: 0px 20px 0px 20px;
     line-height: 1.4em;
     
   }
@@ -45,8 +45,7 @@
   #number-two,
   #number-four,
   #number-six,
-  #number-eight
-   {
+  #number-eight {
     background-color: white;
     height: 300px;
     width: 100%;
@@ -58,7 +57,24 @@
     padding: 40px 20px 20px 20px;
 
   }
-
+  .block-one,
+  .left-content,
+  #resume {
+    overflow-y: auto;
+    height: 150px;
+  }
+  .block-two {
+    overflow-y: auto;
+    height: 200px;
+  }
+  #number-seven {
+    max-height: 200px;
+    margin-bottom: 20px;
+  }
+  .line {
+    border: 1px solid #cddc39;
+    max-width: 65%;
+  }
 }
 
 #number-one,
@@ -161,7 +177,7 @@ img {
 }
 .line {
   border: 1px solid #cddc39;
-  width: 85%;
+  max-width: 85%;
   margin-left: 70px;
 }
 
@@ -190,7 +206,7 @@ img {
 .block-two {
   display: grid;
   grid-template-columns: 1fr 4fr;
-  grid-template-rows: 120px 120px 120px 120px 120px;
+  grid-template-rows: 130px 130px 130px 130px 130px;
   grid-gap: 10px;
   margin:  30px 50px;
 }
