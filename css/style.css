@@ -1,26 +1,24 @@
 * {
   font-family: Helvetica;
   font-size: 1.4em;
-  /*color: black;*/
-  /*text-align: center;*/
   padding: 0;
   margin: 0;
 }
 
-#content{
+#content {
   display: grid;
   grid-template-columns: 30% 70%;
-  grid-template-rows: 250px 450px 800px auto ;
+  grid-template-rows: 250px 450px 800px auto;
   align-content: stretch;
 }
 /**/
 @media (max-width: 900px) {
-  #content{
+  #content {
     display: flex;
     flex-direction: column;
     align-items: center;
-   }
-   img {
+  }
+  img {
     border-radius: 50%;
     width: 80px;
     text-align: center;
@@ -31,7 +29,6 @@
     max-width: 800px;
     padding: 0px 20px 0px 20px;
     line-height: 1.4em;
-    
   }
   #number-one,
   #number-three,
@@ -41,7 +38,7 @@
     height: 300px;
     width: 100%;
   }
-  
+
   #number-two,
   #number-four,
   #number-six,
@@ -55,7 +52,6 @@
     font-weight: 100;
     line-height: 0.5em;
     padding: 40px 20px 20px 20px;
-
   }
   .block-one,
   .left-content,
@@ -86,7 +82,7 @@
   background-color: #cddc39;
   color: #3a433e;
 }
-#number-five{
+#number-five {
   background-color: #cddc39;
 }
 
@@ -130,7 +126,7 @@ img {
 #underline {
   padding-bottom: 1px;
   border-bottom: 3px solid #cddc39;
-  line-height: 48px; 
+  line-height: 48px;
 }
 .left-title {
   text-align: center;
@@ -144,7 +140,7 @@ img {
   display: block;
   font-size: 12px;
 }
-.left-content{
+.left-content {
   color: #3a433e;
   margin: 10px;
   padding: 25px;
@@ -154,7 +150,7 @@ img {
   margin: 10px;
   padding: 25px;
   font-size: 17px;
-  text-align: none;
+  text-align: justify;
 }
 .left-icons {
   display: flex;
@@ -186,7 +182,7 @@ img {
   grid-template-columns: 1fr 4fr;
   grid-template-rows: 150px 150px;
   grid-gap: 5px;
-  margin:  30px 50px;
+  margin: 30px 50px;
 }
 .small-side-one,
 .small-side-three,
@@ -208,7 +204,7 @@ img {
   grid-template-columns: 1fr 4fr;
   grid-template-rows: 130px 130px 130px 130px 130px;
   grid-gap: 10px;
-  margin:  30px 50px;
+  margin: 30px 50px;
 }
 .equal-blocks {
   display: grid;
@@ -243,15 +239,3 @@ img {
 .date {
   font-size: 15px;
 }
-/**
-
-.text {
-  line-height: 0.3em;
-  color: #3a433e;
-}
-.left {
-  padding: 25px;
-  display: block;
-  margin: 10px;
-}
-**/
