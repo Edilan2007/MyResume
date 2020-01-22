@@ -55,6 +55,7 @@
   }
   .block-one,
   .left-content,
+  #number-eight,
   #resume {
     overflow-y: auto;
     height: 150px;
