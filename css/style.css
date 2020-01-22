@@ -184,7 +184,7 @@ img {
   grid-gap: 5px;
   margin: 30px 50px;
 }
-.small-side-one,
+/*.small-side-one,
 .small-side-three,
 .small-side-five,
 .small-side-seven,
@@ -197,7 +197,7 @@ img {
 .small-side-eight,
 .small-side-ten {
   border: 2px dashed orange;
-}
+}*/
 
 .block-two {
   display: grid;
@@ -213,12 +213,12 @@ img {
   grid-gap: 5px;
   margin: 20px 50px;
 }
-.equal-block-one,
+/*.equal-block-one,
 .equal-block-two,
 .equal-block-three,
 .equal-block-four {
   border: 1px dotted blue;
-}
+}*/
 .float-right {
   color: #3a433e;
   font-size: 15px;
